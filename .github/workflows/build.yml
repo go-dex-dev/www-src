@@ -27,10 +27,8 @@ jobs:
         # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
         uses: peaceiris/actions-hugo@v2.5.0
         with:
-          # The Hugo version to download (if necessary) and use. Example: 0.58.2
-          hugo-version: # optional, default is latest
-          # Download (if necessary) and use Hugo extended version. Example: true
-          extended: # optional, default is false
+          hugo-version: latest
+          extended: false
 
       - name: Get sourcecode
         uses: actions/checkout@v2
@@ -57,7 +55,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_GODEX_WWW_TOKEN_GITHUB }}
         with:
           source-directory: 'public'
-          destination-github-username: 'godex-dev'
+          destination-github-username: 'go-dex-dev'
           destination-repository-name: 'www'
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           user-email: developer@pacotorrado.com

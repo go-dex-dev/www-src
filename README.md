@@ -1,6 +1,6 @@
-# GODEX WEBSITE SOURCE #
+# GODEXDEV WEBSITE SOURCE #
 
-GoDex Website for year 2022. Created as developer using developer's tools.
+GoDexDev Website for year 2022. Created as developer using developer's tools.
 Static site using HUGO, a Go framework for creating websites.
 
 ## Usage

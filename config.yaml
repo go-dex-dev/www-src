@@ -158,7 +158,7 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-      - link: https://github.com/godex-dev
+      - link: https://github.com/go-dex-dev
         # Icons are from Font Awesome
         icon: github
       - link: https://twitter.com/GoDexDev
